@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    font-family: 'Outfit';
+}
+body{
+    background-image: url(/resources/Background_image.svg);
+    background-color: #121826;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+sub{
+    font-size: 18px;
+    color: #9DA3AE;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center;
+    margin-top: 20px; 
+}
+.card{
+    background-color: #212936;
+    border-radius: 15px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+    overflow: hidden;
+    margin: 30px;
+    max-width: 280px;
+    width: 100%;
+    padding: 20px;
+}
+.hand{
+    text-align: start;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #FCEED8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arco{
+    text-align: start;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #DEE9FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    text-align: start;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #FBE5E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: start;
+    font-weight: 500;
+}
+p{
+    text-align: start;
+    color: #D2D5DA;
+}
+img{
+    border-radius: 15px;
+    max-width: 90%;
+}
